@@ -1,15 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include "Student.h"
 #include<cstring>
-/*	void setName(char studentName[20]);
-	char* getName();
-	void setMathGrade(int x);
-	float getMathGrade();
-	void setEnglishGrade(int x);
-	float getEnglishGrade();
-	void setHistoryGrade(int x);
-	float getHistoryGrade();
-	float getAverageGrade();*/
+
 void Student::setName(char* studentName)
 {
 	strcpy(this->name, studentName);
